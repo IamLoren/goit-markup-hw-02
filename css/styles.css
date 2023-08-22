@@ -168,7 +168,7 @@ footer {
 }
 
 .span {
-    color: #f4f4fd;
+    color: var(--clr-gray);
 }
 
 /* PORTFOLIO */
@@ -188,10 +188,6 @@ footer {
 .button:focus {
     background-color: #404BBF;
     color: #FFFFFF;
-}
-
-.diference {
-    line-height: 1.2;
 }
 
 .portfolio-cardtype {
