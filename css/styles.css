@@ -1,0 +1,190 @@
+:root {
+    --clr-white: #ffffff;
+    --clr-gray:#f4f4fd;
+    --clr-dark-blue: #2e2f42;
+    --clr-blue-primary: #4d5ae5;
+    --clr-blue-pressed:#404bbf;
+    --clr-titles: #2e2f42;
+    --clr-text: #434455;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: var(--clr-text);
+    background-color: var(--clr-white);
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+/* HEADER */
+
+.nav-logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.nav-logo > span {
+    color: var(--clr-blue-primary);
+}
+
+.nav-link {
+    width: min-content;
+    padding-bottom: 4px;
+    color: var(--clr-dark-blue);
+    border-bottom: 4px solid transparent;
+    transition: hover, 0.3s;
+}
+
+.address-link {
+    width: max-content;
+    padding-bottom: 4px;
+    font-style: normal;
+    color: inherit;
+    border-bottom: 4px solid transparent;
+    transition: hover, 0.3s;
+}
+
+.nav-link:hover,
+.address-link:hover {
+    border-bottom: 4px solid var(--clr-blue-pressed);
+}
+
+/* HERO-SECTION */
+
+.hero {
+    background-color: var(--clr-dark-blue);
+}
+
+.hero-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07143;
+    color: var(--clr-white);
+}
+
+.hero-button {
+    width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    background-color: var(--clr-blue-primary);
+    font-weight: 500;
+    color: var(--clr-white);
+    transition: hover, 0.3s;
+}
+
+.hero-button:hover {
+    background-color: var(--clr-blue-pressed);
+}
+
+/* FEATURES */
+
+.features-subtitle,
+.team-name,
+.portfolio-cardname {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--clr-titles);
+}
+
+.features-description {
+    line-height: 1.5;
+}
+
+/* PRODUCTS */
+.products-title,
+.team-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--clr-titles);
+}
+
+.products-item {
+    width: 360px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.products-img {
+    transition: hover, 0.3s;
+}
+
+.products-img:hover {
+    transform: scale(1.2);
+}
+
+/* TEAM */
+
+.team {
+    background-color: var(--clr-gray);
+}
+
+.team-card {
+    width: 264px;
+    height: 380px;
+    background-color: var(--clr-white);
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--clr-dark-blue);
+}
+
+.footerlogo {
+    color: var(--clr-gray);
+}
+
+.footer-description {
+    color: var(--clr-gray);
+    line-height: 1.5;
+}
+
+/* PORTFOLIO */
+
+.button {
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+    padding: 12px 24px;
+    background-color: var(--clr-gray);
+    font-weight: 500;
+    color: var(--clr-blue-primary);
+    transition: hover, 0.3s;
+}
+
+.button:hover {
+    background-color: var(--clr-blue-pressed);
+    color: var(--clr-white);
+    cursor: pointer;
+}
+
+.portfolio-card {
+    width: 360px;
+    height: 420px;
+    overflow: hidden;
+}
+
+.portfolio-img {
+transition: hover, 0.3s;
+}
+
+.portfolio-img:hover {
+    transform: scale(1.1);
+}
+
+
