@@ -167,8 +167,8 @@ footer {
     letter-spacing: 0.02em;
 }
 
-.span {
-    color: var(--clr-gray);
+.footerlogo > .span {
+    color: #f4f4fd;
 }
 
 /* PORTFOLIO */
