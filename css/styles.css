@@ -32,6 +32,10 @@ a {
     list-style: none;
 }
 
+.link {
+    text-decoration: none; 
+}
+
 /* HEADER */
 
 .nav-logo {
@@ -106,7 +110,7 @@ a {
 .portfolio-cardname {
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--clr-titles);
 }
@@ -180,7 +184,10 @@ footer {
 .button:focus {
     background-color: #404BBF;
     color: #FFFFFF;
-    cursor: pointer;
+}
+.portfolio-cardtype {
+    letter-spacing: 0.02em;
+    color: var(--clr-text);
 }
 
 
