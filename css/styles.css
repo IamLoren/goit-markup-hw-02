@@ -26,7 +26,10 @@ li {
 
 a {
     text-decoration: none;
-    display: block;
+}
+
+.list {
+    list-style: none;
 }
 
 /* HEADER */
@@ -48,7 +51,6 @@ a {
 
 .nav-link {
     color: var(--clr-dark-blue);
-    transition: hover, 0.3s;
 }
 
 .address {
@@ -59,7 +61,6 @@ a {
     color: inherit;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    transition: hover, 0.3s;
 }
 
 .address-link:hover,
@@ -91,7 +92,6 @@ a {
     letter-spacing: 0.04em;
     color: var(--clr-white);
     cursor: pointer;
-    transition: hover, 0.3s;
 }
 
 .hero-button:hover,
@@ -133,16 +133,8 @@ a {
 }
 
 .team-profession {
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-}
-
-.products-img {
-    transition: hover, 0.3s;
-}
-
-.products-img:hover {
-    transform: scale(1.2);
 }
 
 /* TEAM */
@@ -168,33 +160,28 @@ footer {
 .footer-description {
     color: var(--clr-gray);
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* PORTFOLIO */
 
 .button {
     background-color: var(--clr-gray);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: var(--clr-blue-primary);
-    transition: hover, 0.3s;
-}
-
-.button:hover {
-    background-color: var(--clr-blue-pressed);
-    color: var(--clr-white);
     cursor: pointer;
 }
 
-.portfolio-card {
-    overflow: hidden;
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
-.portfolio-img {
-transition: hover, 0.3s;
-}
-
-.portfolio-img:hover {
-    transform: scale(1.1);
-}
 
 
