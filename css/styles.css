@@ -32,37 +32,39 @@ a {
 /* HEADER */
 
 .nav-logo {
+    text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
     letter-spacing: 0.54px;
+    line-height: 1.17;
     text-transform: uppercase;
-}
-
-.nav-logo > span {
     color: var(--clr-blue-primary);
 }
 
-.nav-link {
-    width: min-content;
-    padding-bottom: 4px;
+.nav-logo > span {
     color: var(--clr-dark-blue);
-    border-bottom: 4px solid transparent;
+}
+
+.nav-link {
+    color: var(--clr-dark-blue);
     transition: hover, 0.3s;
+}
+
+.address {
+    font-style: normal
 }
 
 .address-link {
-    width: max-content;
-    padding-bottom: 4px;
-    font-style: normal;
     color: inherit;
-    border-bottom: 4px solid transparent;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     transition: hover, 0.3s;
 }
 
-.nav-link:hover,
-.address-link:hover {
-    border-bottom: 4px solid var(--clr-blue-pressed);
+.address-link:hover,
+.address-link:hover:focus {
+    color: var(--clr-blue-pressed);
 }
 
 /* HERO-SECTION */
@@ -74,21 +76,26 @@ a {
 .hero-title {
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.07143;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: var(--clr-white);
 }
 
 .hero-button {
-    width: 169px;
-    height: 56px;
-    border-radius: 4px;
     background-color: var(--clr-blue-primary);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: var(--clr-white);
+    cursor: pointer;
     transition: hover, 0.3s;
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
     background-color: var(--clr-blue-pressed);
 }
 
@@ -99,11 +106,14 @@ a {
 .portfolio-cardname {
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--clr-titles);
 }
 
 .features-description {
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* PRODUCTS */
@@ -111,13 +121,20 @@ a {
 .team-title {
     font-size: 36px;
     font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color: var(--clr-titles);
 }
 
 .products-item {
-    width: 360px;
-    height: 300px;
     overflow: hidden;
+}
+
+.team-profession {
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .products-img {
@@ -135,8 +152,6 @@ a {
 }
 
 .team-card {
-    width: 264px;
-    height: 380px;
     background-color: var(--clr-white);
 }
 
@@ -158,9 +173,6 @@ footer {
 /* PORTFOLIO */
 
 .button {
-    border: 1px solid #e7e9fc;
-    border-radius: 4px;
-    padding: 12px 24px;
     background-color: var(--clr-gray);
     font-weight: 500;
     color: var(--clr-blue-primary);
@@ -174,8 +186,6 @@ footer {
 }
 
 .portfolio-card {
-    width: 360px;
-    height: 420px;
     overflow: hidden;
 }
 
